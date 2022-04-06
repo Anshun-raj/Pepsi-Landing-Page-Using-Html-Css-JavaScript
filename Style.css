@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #0062be;
+    transition: 0.5s;
+}
+
+header {
+    display: flex;
+    padding-top: 10px;
+}
+
+header .logo {
+    margin-left: 20px;
+}
+
+header .logo img {
+    width: 70px;
+}
+
+header ul {
+    display: flex;
+    margin-left: 550px;
+}
+
+header ul li {
+    list-style: none;
+    padding-left: 40px;
+}
+
+header ul {
+    display: flex;
+    margin-left: 700px;
+}
+
+header ul li {
+    list-style: none;
+    padding-left: 22px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.data {
+    display: flex;
+}
+
+.data .textBox {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.data .textBox h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.data .textBox p {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.x {
+    border-radius: 18px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    font-family: 400;
+}
+
+.pic {
+    margin-left: 500px;
+    margin-top: 80px;
+}
+
+.pepsi {
+    width: 60%;
+    cursor: pointer;
+}
+
+.social ul {
+    margin-top: 120px;
+    margin-right: 50px;
+    color: white;
+}
+
+.social ul li {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.social ul li a {
+    filter: invert(1);
+}
+
+.social ul li img {
+    cursor: pointer;
+}
+
+.last {
+    width: 70%;
+}
+
+.last ul {
+    display: flex;
+    margin-left: 380px;
+    margin-top: 70px;
+}
+
+.last ul li {
+    list-style: none;
+}
+
+.last ul li img {
+    cursor: pointer;
+}
+
+.p {
+    width: 15%;
+}
+
+.q {
+    width: 15%;
+}
+
+.r {
+    width: 15%;
+}
